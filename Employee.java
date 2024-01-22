@@ -30,12 +30,10 @@ public class Employee extends Person {
         this.salary = salary;
     }
 
-    @Override
     public String toString() {
         return "Employee: " + super.toString();
     }
 
-    @Override
     public double getPaymentAmount() {
         return salary;
     }
